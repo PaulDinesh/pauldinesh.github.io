@@ -11,8 +11,8 @@ html {zoom: 75%;}
 }
 
 .header_area .main-menu .nav-item .nav-link{
-font: normal 15px/2px var(--roboto); /* font size 12 line height 2*/
-font-weight: 500; /* thickness or bold of font*/
+font: normal 500 15px/2px var(--roboto); /* font size 12 line height 2*/
+/*font-weight: 500; /* thickness or bold of font*/
 text-transform: uppercase;
 
 padding: 1.7rem;
@@ -22,13 +22,13 @@ color:var(--title-color);
 .header_area .main-menu .navbar-nav .active a{
   background: var(--gradient-color);
   -webkit-background-clip: text;
-  /*-webkit-text-fill-color:transparent;*/
+  -webkit-text-fill-color:transparent;
   background-clip: text;
 }
 .header_area .main-menu .navbar-nav a:hover{
   background: var(--gradient-color);
   -webkit-background-clip: text;
-  /*-webkit-text-fill-color:transparent;*/
+  -webkit-text-fill-color:transparent;
   background-clip: text;
 
 }
