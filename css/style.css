@@ -12,7 +12,7 @@ html {zoom: 75%;}
 
 .header_area .main-menu .nav-item .nav-link{
 font: normal 500 15px/2px var(--roboto); /* font size 12 line height 2*/
-/*font-weight: 500; /* thickness or bold of font*/
+font-weight: 500; /* thickness or bold of font*/
 text-transform: uppercase;
 
 padding: 1.7rem;
@@ -30,10 +30,9 @@ color:var(--title-color);
   -webkit-background-clip: text;
   /*-webkit-text-fill-color:transparent;*/
   background-clip: text;
-
 }
 /*End Navigation*/
-
+/*
 ul.navigation {
     list-style-type: none;
     margin: 0;
@@ -79,4 +78,4 @@ ul.navigation {
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
   }
-  
+  */
