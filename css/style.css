@@ -32,6 +32,16 @@ color:var(--title-color);
   background-clip: text;
 }
 /*End Navigation*/
+
+/*Banner Area*/
+.site-main .site-banner{
+  background: url(../img/banner/home-banner.png) no-repeat 90% 10%;
+  }
+/* End Banner Area*/ 
+
+
+
+
 /*
 ul.navigation {
     list-style-type: none;
