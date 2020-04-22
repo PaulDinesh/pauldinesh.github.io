@@ -1,4 +1,4 @@
-html {zoom: 75%;}
+
 /*import Css Variables*/
 @import url(./partials/_variables.css);
 /*import fonts from fonts.css file*/
@@ -65,8 +65,6 @@ font-size: 1.5rem;
   padding: 7rem 0;
   width: 90rem;
 }
-
-
 
 
 /* End Banner Area*/ 
