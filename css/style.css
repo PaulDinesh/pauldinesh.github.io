@@ -4,7 +4,7 @@
 /*import fonts from fonts.css file*/
 @import url(./fonts.css);
 /*import global style*/
-@import url(./partials/_global.css);
+@import url(/css/partials/_global.css);
 /*Start Navigation*/
 .header_area .main-menu .navbar .navbar-brand{
   padding: 0 2rem 0 1rem;
