@@ -100,15 +100,62 @@ padding: .4rem 0;
   height: 18rem;  
   position: relative;
   z-index:-1;
+  margin-left: 125px;
 }
 .site-main .brand-area .experience-area .bg-panel{
   position: absolute;
   background: #e029290a;
   left:-190px;top:0%;
   width: 400px;
-  height: 400px;
+  height: 550px;
   margin-left: 340px;
 }
+.site-main .brand-area .experience-area .years-area .years{
+  font: normal bold 30px/40px var(--roboto);
+  color: var(--primary-color2);
+  padding: 2rem 0;
+  width: 30px;
+  z-index:2; 
+}
+.site-main .brand-area .experience-area .years-area h2> span{
+  font: normal 600 30px/30px var(--roboto);
+  padding: 0 4rem;
+}
+.site-main .brand-area .experience-area .call-area{
+  padding-left: 10rem;
+  width:600px;
+}
+/*brand area*/
+.site-main .brand-area{
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-3{
+  display:flex;
+  justify-content: center;
+}
+.site-main .brand-area .first-row .col-lg-3>.single-brand{
+border:1px solid var(--border-color);
+text-align: center;
+padding: 1.8rem 0rem;
+margin: .9rem 0;
+width: 180px;
+height: 100px;
+cursor: pointer;
+transition: transform .4s ease;
+}
+.site-main .brand-area .first-row .col-lg-3>i{
+  width: 50%;
+}
+.site-main .brand-area .first-row .col-lg-3:hover{
+box-shadow: --var(box-shadow);
+transform:scale(1.1);
+}
+/*brand area*/
+
+
+
 
 .circle-icon {
   display: inline-block;
